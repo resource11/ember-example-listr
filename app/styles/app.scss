@@ -21,6 +21,7 @@ h3 {
 
 .listr-list__header {
   @extend %button.pseudo;
+  user-select: none;
 }
 
 .listr-list--hidden :not(:first-child){
