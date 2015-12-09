@@ -1,5 +1,7 @@
 <h1>Listr</h1>
 
-{{listr-list}}
+{{#each model.lists as |list|}}
+  {{listr-list list=list}}
+{{/each}}
 
 {{outlet}}
