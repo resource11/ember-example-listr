@@ -3,4 +3,5 @@ export default function() {
 
   this.get('/lists');
   this.get('/items/:id');
+  this.put('/items/:id');
 }
