@@ -19,6 +19,10 @@ h3 {
   @extend %card;
 }
 
+.listr-list__header {
+  @extend %button.pseudo;
+}
+
 .listr-list--hidden :not(:first-child){
   display: none;
 }
