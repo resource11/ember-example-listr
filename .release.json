@@ -1,24 +1,10 @@
 {
-    "increment": "patch",
-    "prereleaseId": null,
-    "commitMessage": "Release %s",
-    "tagName": "%s",
-    "tagAnnotation": "Release %s",
     "buildCommand": "ember build",
     "requireCleanWorkingDir": true,
+    "src": {
+        "pushRepo": false
+    },
     "dist": {
         "repo": "git@github.com:resource11/example-listr-deployment.git#gh-pages"
-    },
-    "npm": {
-        "publish": false,
-        "publishPath": ".",
-        "tag": "latest",
-        "private": false,
-        "forcePublishSourceRepo": false
-    },
-    "github": {
-        "release": false,
-        "releaseName": "Release %s",
-        "tokenRef": "GITHUB_TOKEN"
     }
 }
