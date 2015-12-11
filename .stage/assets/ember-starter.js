@@ -486,7 +486,7 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("ember-starter/app")["default"].create({"name":"ember-starter","version":"0.0.2"});
+  require("ember-starter/app")["default"].create({"name":"ember-starter","version":"0.0.4+0c178eed"});
 }
 
 /* jshint ignore:end */
