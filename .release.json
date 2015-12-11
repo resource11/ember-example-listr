@@ -7,7 +7,7 @@
     "buildCommand": "ember build",
     "requireCleanWorkingDir": true,
     "dist": {
-        "repo": "git@github.com:resource11/example-listr-deployment.git#gh-pages",
+        "repo": "git@github.com:resource11/example-listr-deployment.git#gh-pages"
     },
     "npm": {
         "publish": false,
